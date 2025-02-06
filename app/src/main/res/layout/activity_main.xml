@@ -8,12 +8,10 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="1278dp"
-        android:layout_height="798dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/black"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,17 +25,228 @@
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Objectives"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/cuddles" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView61"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/blank_fract" />
+
+                        <ImageView
+                            android:id="@+id/imageView62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/blank_heart" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView69"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/blank_blank" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Cuddles: 0"
+                    android:textSize="34sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView59"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/smokey" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/blank_dots" />
+
+                        <ImageView
+                            android:id="@+id/imageView64"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/blank_smile" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView70"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        android:adjustViewBounds="true"
+                        app:srcCompat="@drawable/blank_blank" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Smokey: 0"
+                    android:textSize="34sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView58"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/stripe" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView65"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/blank_lines" />
+
+                        <ImageView
+                            android:id="@+id/imageView66"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            app:srcCompat="@drawable/blank_star" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView71"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.75"
+                        app:srcCompat="@drawable/blank_blank" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Stripe: 0"
+                    android:textSize="34sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView57"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/blank_goal" />
+
+                    <ImageView
+                        android:id="@+id/imageView72"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/blank_blank" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Buttons: 0"
+                    android:textSize="34sp" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="0.25"
+            android:layout_weight="0.75"
             android:orientation="vertical">
 
             <LinearLayout
@@ -47,24 +256,52 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/button5"
+                <Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:layout_weight="1" />
 
-                <Button
-                    android:id="@+id/button4"
+                <ImageButton
+                    android:id="@+id/imageButton3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/blank_blank" />
 
-                <Button
-                    android:id="@+id/button2"
+                <Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:layout_weight="1" />
 
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/blank_blank" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/blank_blank" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
             </LinearLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -91,6 +328,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half" />
 
                         <ImageView
@@ -98,42 +336,56 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/yellow_lines" />
 
                         <ImageView
                             android:id="@+id/imageView7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blue_heart" />
 
                         <ImageView
                             android:id="@+id/imageView8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/red_dots" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/pink_fract" />
 
                         <ImageView
                             android:id="@+id/imageView9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/yellow_smile" />
 
                         <ImageView
                             android:id="@+id/imageView10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/orange_star" />
 
                         <ImageView
                             android:id="@+id/imageView13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/nothing_full" />
 
                     </LinearLayout>
 
@@ -150,13 +402,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/pink_smile" />
 
                         <ImageView
                             android:id="@+id/imageView16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -164,6 +418,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -171,6 +426,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_blank" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -178,6 +442,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -185,13 +450,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/green_heart" />
 
                         <ImageView
                             android:id="@+id/imageView14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half2" />
                     </LinearLayout>
 
@@ -207,6 +474,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half" />
 
                         <ImageView
@@ -214,13 +482,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/green_star" />
 
                         <ImageView
                             android:id="@+id/imageView23"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -228,6 +498,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_blank" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -235,13 +514,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_goal" />
 
                         <ImageView
                             android:id="@+id/imageView26"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -249,7 +530,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/yellow_fract" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -264,13 +546,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/red_lines" />
 
                         <ImageView
                             android:id="@+id/imageView43"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -278,13 +562,23 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_goal" />
 
                         <ImageView
                             android:id="@+id/imageView45"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_blank" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -292,6 +586,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -299,13 +594,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blue_dots" />
 
                         <ImageView
                             android:id="@+id/imageView48"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half2" />
                     </LinearLayout>
 
@@ -321,6 +618,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half" />
 
                         <ImageView
@@ -328,13 +626,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/orange_fract" />
 
                         <ImageView
                             android:id="@+id/imageView30"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -342,6 +642,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_blank" />
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -349,13 +658,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_goal" />
 
                         <ImageView
                             android:id="@+id/imageView33"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -363,7 +674,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/orange_lines" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -378,13 +690,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/yellow_heart" />
 
                         <ImageView
                             android:id="@+id/imageView50"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -392,6 +706,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -399,6 +714,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blank_blank" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -406,6 +730,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
@@ -413,13 +738,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/pink_star" />
 
                         <ImageView
                             android:id="@+id/imageView55"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half2" />
                     </LinearLayout>
 
@@ -435,6 +762,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
+                            android:clickable="true"
                             app:srcCompat="@drawable/nothing_half" />
 
                         <ImageView
@@ -442,42 +770,56 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/blue_dots" />
 
                         <ImageView
                             android:id="@+id/imageView37"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/pink_smile" />
 
                         <ImageView
                             android:id="@+id/imageView38"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/red_heart" />
+
+                        <ImageView
+                            android:id="@+id/imageView56"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            app:srcCompat="@drawable/green_star" />
 
                         <ImageView
                             android:id="@+id/imageView39"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/yellow_smile" />
 
                         <ImageView
                             android:id="@+id/imageView40"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/orange_fract" />
 
                         <ImageView
                             android:id="@+id/imageView41"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
-                            app:srcCompat="@drawable/blank_blank" />
+                            android:clickable="true"
+                            app:srcCompat="@drawable/nothing_full" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -490,17 +832,39 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <Button
-                    android:id="@+id/button6"
+                <Space
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:layout_weight="1" />
 
-                <Button
-                    android:id="@+id/button7"
+                <ImageButton
+                    android:id="@+id/imageButton4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/blank_blank" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/blank_blank" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
             </LinearLayout>
 
         </LinearLayout>
@@ -508,15 +872,81 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:layout_weight="1.25"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Button" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Player 1"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Player 2"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Player 3"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Player 4"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@android:drawable/ic_delete" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/checkmark" />
+
+            </LinearLayout>
+
         </LinearLayout>
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
