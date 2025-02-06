@@ -1,109 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
     android:orientation="vertical">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_weight="1"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-
-            android:layout_weight="1"
+            android:layout_weight="0"
+            android:layout_marginRight="120sp"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/objectives"
-                android:layout_width="match_parent"
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Objectives" />
+                android:layout_weight="0"
+                android:text="View Dropdown Objectives" />
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/blanktile" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/blanktile" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/blanktile" />
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
 
-            android:layout_weight="5"
-            android:orientation="vertical">
-
-
-            <SurfaceView
-                android:id="@+id/communityTiles"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-
-            android:layout_weight="2"
-            android:orientation="vertical">
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="15"
+        android:layout_weight="0"
         android:orientation="horizontal">
-
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
             android:orientation="vertical">
 
+            <!-- Player Board -->
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                app:srcCompat="@drawable/calicoboard" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:layout_marginTop="120sp"
+            android:layout_marginLeft="250sp"
+            android:orientation="vertical">
+
+
+            <!-- View Player Buttons -->
+
+            <!-- Player One -->
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 1" />
+
+            <!-- Player Two -->
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="goodbye"
-                android:text="GOODBYE" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="5"
-            android:orientation="vertical">
-            <SurfaceView
-                android:id="@+id/CalicoBoard"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-
-            android:orientation="vertical">
-            <Button
-                android:id="@+id/player1"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
-                android:text="Player 1" />
-            <Button
-                android:id="@+id/player2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-
                 android:text="Player 2" />
+
+            <!-- Player Three -->
             <Button
-                android:id="@+id/player3"
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:text="Player 3" />
+
+            <!-- Player Four -->
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 4" />
+
 
         </LinearLayout>
     </LinearLayout>
@@ -111,53 +144,70 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
+        android:layout_weight="0"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"></LinearLayout>
 
-            android:layout_weight="1.85"
-            android:orientation="vertical">
-
-        </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:orientation="horizontal">
 
-            android:layout_weight="5"
-            android:orientation="vertical">
+            <!-- Player Tiles -->
 
-
-            <SurfaceView
-                android:id="@+id/UserTiles"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-
-            android:layout_weight="0"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="200sp"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
-                <Button
-                    android:id="@+id/undo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Undo" />
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/blanktile" />
 
-                <Button
-                    android:id="@+id/submit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Submit Move" />
-            </LinearLayout>
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="200sp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/blanktile" />
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <!-- Confirm Move Button -->
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_gravity="bottom"
+                android:layout_weight="0"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/checkmark" />
+
+            <!-- Cancel/Undo Move Button -->
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_gravity="bottom"
+                android:layout_weight="0"
+                android:scaleType="fitCenter"
+                app:srcCompat="@android:drawable/ic_delete" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>
