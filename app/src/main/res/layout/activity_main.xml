@@ -31,7 +31,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/objectives"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="View Objectives"
@@ -66,7 +66,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView61"
+                            android:id="@+id/cat1pattern1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -74,7 +74,7 @@
                             app:srcCompat="@drawable/blank_fract" />
 
                         <ImageView
-                            android:id="@+id/imageView62"
+                            android:id="@+id/cat1pattern2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -88,11 +88,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.75"
                         android:adjustViewBounds="true"
-                        app:srcCompat="@drawable/blank_blank" />
+                        app:srcCompat="@drawable/catgoal3" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/catCount1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -121,7 +121,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView63"
+                            android:id="@+id/cat2pattern1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -129,7 +129,7 @@
                             app:srcCompat="@drawable/blank_dots" />
 
                         <ImageView
-                            android:id="@+id/imageView64"
+                            android:id="@+id/cat2pattern2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -143,11 +143,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.75"
                         android:adjustViewBounds="true"
-                        app:srcCompat="@drawable/blank_blank" />
+                        app:srcCompat="@drawable/catgoal4" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/catCount2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -176,7 +176,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView65"
+                            android:id="@+id/cat3pattern1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -184,7 +184,7 @@
                             app:srcCompat="@drawable/blank_lines" />
 
                         <ImageView
-                            android:id="@+id/imageView66"
+                            android:id="@+id/cat3pattern2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
@@ -197,11 +197,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="0.75"
-                        app:srcCompat="@drawable/blank_blank" />
+                        app:srcCompat="@drawable/catgoal5" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/catCount3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -221,18 +221,18 @@
                         android:layout_weight="0.5"
                         android:adjustViewBounds="true"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/blank_goal" />
+                        app:srcCompat="@drawable/button" />
 
                     <ImageView
                         android:id="@+id/imageView72"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/blank_blank" />
+                        app:srcCompat="@drawable/buttongoal" />
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/buttonCount"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -262,7 +262,7 @@
                     android:layout_weight="1" />
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/commonTile1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -276,7 +276,7 @@
                     android:layout_weight="1" />
 
                 <ImageButton
-                    android:id="@+id/imageButton"
+                    android:id="@+id/commonTile2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -290,7 +290,7 @@
                     android:layout_weight="1" />
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/commonTile3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -510,7 +510,7 @@
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
-                            android:id="@+id/imageView25"
+                            android:id="@+id/objectiveTop"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
@@ -558,7 +558,7 @@
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
-                            android:id="@+id/imageView44"
+                            android:id="@+id/objectiveMiddle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
@@ -654,7 +654,7 @@
                             app:srcCompat="@drawable/blank_blank" />
 
                         <ImageView
-                            android:id="@+id/imageView32"
+                            android:id="@+id/objectiveBottom"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
@@ -838,7 +838,7 @@
                     android:layout_weight="1" />
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/playerTile1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -852,7 +852,7 @@
                     android:layout_weight="0.75" />
 
                 <ImageButton
-                    android:id="@+id/imageButton5"
+                    android:id="@+id/playerTile2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -883,7 +883,7 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/player1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -892,7 +892,7 @@
                     android:textSize="20sp" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/player2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -901,7 +901,7 @@
                     android:textSize="20sp" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/player3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -910,7 +910,7 @@
                     android:textSize="20sp" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/player4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
@@ -927,7 +927,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton7"
+                    android:id="@+id/undo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -936,7 +936,7 @@
                     app:srcCompat="@android:drawable/ic_delete" />
 
                 <ImageButton
-                    android:id="@+id/imageButton6"
+                    android:id="@+id/confirm"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
